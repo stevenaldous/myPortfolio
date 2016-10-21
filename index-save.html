@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Steven Aldous</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <nav  class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false" aria-controls="navbar-collapsed">
+          <i class="fa fa-bars fa-2x"></i>
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#top">STEVEN ALDOUS</a>
+      </div>
+      <div collapse="navCollapsed" class="collapse navbar-collapse" id="navbar-collapsed">
+        <ul class="nav navbar-nav">
+          <li><a class="navLink" href="#about" >about</a></li>
+          <li><a class="navLink" href="#work">work</a></li>
+          <li><a class="navLink" href="#contact">contact</a></li>
+          <li>
+            <div class="dropdown">
+              <button class="navLink dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                resume
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a class="navLink" target="_blank" href="https://resume.creddle.io/resume/adnu5lofv5z">go to</a></li>
+                <li><a class="navLink" href="/images/StevenAldous_Resume.pdf" download>download pdf</a></li>
+                <li><a class="navLink" href="/images/StevenAldous_Resume.docx" download>download doc</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div  id="site-container" class="container-fluid">
+  <div class="row" id="top">
+    <div class="col-md-12">
+      <img src="./images/IMG_5514.jpg" class="img-responsive"/>
+      <div class="intro-text">
+        <h1 class="text-huge">Steven Aldous</h1>
+        <h3 class="text-large">Web Developer | Outdoor Enthusiast</h3>
+        <br><br>
+        <a href="#about"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+  </div>
+    <div class="divider" id="about"></div>
+    <img src="./images/myProfile.jpg" class="img-responsive img-rounded center-block"/>
+    <h1>about</h1>
+    <hr>
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1">
+        <div class="about-text">
+          <p>Hello! My name is Steven Aldous and I am a full-stack web developer who is passionate about the outdoors, my family, and designing functional and user-friendly applications. I have a background in sales and sales management and am excited to combine the tools from my previous work with my new skillsets in programming and work to build beautiful web-apps.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h1>skills</h1>
+      <hr>
+      <div class="col-md-10 col-md-offset-1 skills">
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <li>JavaScript</li>
+            <li>AngularJS</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>Sails.js</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <li>PHP</li>
+            <li>Ruby on Rails</li>
+            <li>Flask</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <li>SQL</li>
+            <li>MongDB</li>
+            <li>PostgreSQL</li>
+            <li>Sequelize</li>
+            <li>JSON</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <li>JQuery</li>
+            <li>AJAX</li>
+            <li>Bootstrap</li>
+            <li>RSpec</li>
+            <li>Git/Github</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- work section -->
+    <img src="./images/river.jpg" class="img-responsive"/>
+    <div class="divider" id="work"></div>
+    <h1>Work</h1>
+    <hr>
+    <div class="row" >
+      <div id="work_container" class="col-md-12">
+        <div id="work-carousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#work-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#work-carousel" data-slide-to="1"></li>
+            <li data-target="#work-carousel" data-slide-to="2"></li>
+            <li data-target="#work-carousel" data-slide-to="3"></li>
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+
+          <!-- slide 1 -->
+            <div class="item active">
+              <h3><a target="_blank" href="https://shredwa.herokuapp.com/">Shred WA</a></h3>
+              <img src="./images/shred_wa.png" class="img-responsive center-block"/>
+              <div class="col-sm-8 col-sm-offset-2">
+                <p>Shred WA was designed to be the one stop weather application to help you shred the great state of Washington by helping find Ski Resorts and Mountain Bike Trails and includes the current weather as well as a forecast. Shred WA was built with AngularJS, Sails, MongoDb, Bootstrap, Trails.API, and the OpenWeather API.</p>
+              </div>
+            </div>
+            <!-- slide 2 -->
+            <div class="item">
+              <h3><a target="_blank" href="https://rocky-falls-6405.herokuapp.com/">WEcycle</a></h3>
+              <img src="./images/wecycle.png" class="img-responsive center-block"/>
+              <div class="col-sm-8 col-sm-offset-2">
+                <p>WEcycle is a community driven application to connect individuals who are interested in recycling with each other. Users can post their reuse ideas as well as search their address to find out what dates their recycling needs to be taken to the curb. WEcycle was built with Ruby on Rails and utilizes Rest Client to pull calendar information from Seattle.gov.</p>
+              </div>
+            </div>
+            <!-- slide 3 -->
+            <div class="item">
+            <h3><a target="_blank" href="http://stevenaldous.github.io/price-is-right/">Price-Is-Right</a></h3>
+              <img src="./images/priceIsRight.png" class="img-responsive center-block"/>
+              <div class="col-sm-8 col-sm-offset-2">
+                <p>The Price-Is-Right is a two-player consumer trivia game based off of the long running show of the same name. Players take turns toguess the price of an item and the first to 10answers wins! Price-Is Right is an application built on pure Javascript.</p>
+              </div>
+            </div>
+
+              <!-- slide 4 -->
+              <div class="item">
+              <h3><a href="">Hawaiian Airlines Banners</a></h3>
+                <img src="./images/HA_banners.png" class="img-responsive center-block"/>
+                <div class="col-sm-8 col-sm-offset-2">
+                  <p>For Hawaiian Airlines project I worked with a project manager and an art director to build HTML5/CSS3 banners with Javascript animations. The work had to adhere to a strict size limitation of 200kb and have full browser compatibility. Project scope included four sizes of banners for four markets and three different designs. </p>
+                </div>
+              </div>
+
+          </div>
+          <a class="left carousel-control" href="#work-carousel" role="button" data-slide="prev">
+            <span aria-hidden="true"><i class="fa fa-chevron-left fa-2x"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#work-carousel" role="button" data-slide="next">
+            <span aria-hidden="true"><i class="fa fa-chevron-right fa-2x"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+     <div class="divider"></div>
+    <img src="./images/aboutMe.jpg" class="img-responsive"/>
+    <div class="divider" id="contact"></div>
+    <h1>Contact</h1>
+    <hr>
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 contact-text">
+        <p>Feel free to contact me about work, Ms. Pacman tips, outdoor activities, or just to say hi.</p>
+        <br>
+        <div class="col-sm-6 col-sm-offset-4">
+          <p class="thanks">Thank You for stopping by!</p>
+        </div>
+        <br>
+        <div class="col-sm-12">
+          <ul class="list-inline">
+            <li><a target="_top" href="mailto:stevenaldous@gmail.com"><i class="fa fa-envelope fa-4x"></i></a></li>
+            <li><a target="_blank" href="https://github.com/stevenaldous"><i class="fa fa-github fa-4x"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/pub/steve-aldous/52/266/523"><i class="fa fa-linkedin fa-4x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    &copy Steven Aldous, 2015
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
