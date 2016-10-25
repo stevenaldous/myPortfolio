@@ -1,0 +1,340 @@
+@font-face {
+    font-family: "JovialSansBld";
+    src: url("../fonts/JovialSansBld.ttf");
+}
+@font-face {
+    font-family: "Jovial";
+    src: url("../fonts/Jovial.ttf");
+}
+/******* body *******/
+body{
+  background-color: #4F2600;
+  position: relative;
+  margin-top: 50px;
+  padding-bottom: 70px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+/******* general styles *******/
+.container-fluid{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+a{
+  color: #FFFFCC;
+  background-color: transparent;
+}
+a:hover{
+  color: #DBAF57;
+  background-color: transparent;
+}
+a:visited{
+  color: #FFFFCC;
+  background-color: transparent;
+}
+h1{
+  font-family: "JovialSansBld";
+  text-align: center;
+  font-size: 80px;
+  color: #FFCC66;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h3{
+  font-family: "JovialSansBld";
+  text-align: center;
+  font-size: 50px;
+  color: #FFFFCC;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+hr{
+  width:80%;
+  margin-top: -10px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  height: 3px;
+  border: none;
+  border-radius: 1.5px;
+  background-color: #996600;
+  color: #996600;
+}
+p{
+  font-family: "Jovial";
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #FFFFCC;
+}
+.divider{
+  margin-top: 20px;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+}
+ul{
+  list-style: none;
+}
+
+
+/******* nav styles *******/
+.navbar{
+  padding-left: 25px;
+  border-style: none;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  z-index: 99999 ;
+  background: -webkit-linear-gradient(#3C1D00, #4F2600);
+  background: -o-linear-gradient(#3C1D00, #4F2600);
+  background: -moz-linear-gradient(#3C1D00, #4F2600);
+  background: linear-gradient(#3C1D00, #4F2600);
+}
+.navbar-toggle {
+  margin-top: 2px;
+}
+.navbar-brand{
+  color: #FFFFCC !important;
+  font-size: 25px !important;
+}
+.navbar-brand:hover{
+  color:  #FFFFCC;
+  text-shadow: 1px 1px #FFCC66;
+  background-color: transparent;
+}
+.navbar-brand:visited{
+  color: #FFFFCC ;
+  background-color: transparent;
+}
+.navbar-brand:active{
+  color: #FFFFCC ;
+  background-color: transparent;
+}
+.navLink{
+  padding-left: 10px !important;
+  color: #FFFFCC !important;
+  background-color: transparent !important;
+  border: none;
+}
+.navLink:visited{
+  color: #FFFFCC !important;
+  background-color: transparent !important;
+}
+.navLink:active{
+  color: #FFFFCC !important;
+  background-color: transparent !important;
+}
+.navLink:hover{
+  color:  #FFFFCC !important;
+  text-shadow: 1px 1px #FFCC66;
+  background-color: transparent !important;
+}
+.navbar .fa-bars{
+  color: #FFFFCC;
+}
+.dropdown-menu{
+  background-color: #4F2600;
+  color: #FFFFCC;
+}
+.dropdown-toggle{
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  padding-top: 19px;
+}
+/******* intro styles *****/
+.intro-text{
+  position: absolute ;
+  text-align: center;
+  top: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
+
+}
+.intro-text h1{
+  font-family: "JovialSansBld";
+  letter-spacing: 4px;
+  font-size: 200px;
+  color: #FFCC66;
+  text-shadow: 4px 4px #996600;
+}
+.intro-text h3{
+  font-family: "JovialSansBld";
+  letter-spacing: 2px;
+  font-size: 70px;
+  color: #FFCC66;
+  text-shadow: 3px 3px #996600;
+}
+.fa-chevron-down{
+  color: #FFCC66;
+  text-shadow: 2px 2px #996600;
+  font-size: 5em;
+}
+.fa-chevron-down:hover{
+  color: #FFFFCC;
+  text-shadow: 6px 6px #996600;
+}
+/******* about styles *******/
+.skills li{
+  font-family: "Jovial";
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #FFFFCC;
+}
+
+/******* work styles *******/
+#workCarousal img{
+  margin:auto;
+  position: relative;
+  max-height: 500px;
+  text-align: center;
+}
+#work_container,.carousel-inner{
+  background-color: #4F2600;
+}
+ol{
+  position: absolute;
+  margin-bottom: -20px;
+}
+.carousel-control{
+  background: none !important;
+}
+.carousel-inner a{
+  letter-spacing: 2px;
+  font-size: 70px;
+  color: #FFCC66;
+  text-shadow: 1px 1px #996600;
+}
+.carousel-inner a:hover{
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-size: 70px;
+  color: #FFCC66;
+  text-shadow: 3px 3px #996600;
+}
+.carousel-inner .item img{
+  max-height: 500px;
+}
+.fa-chevron-left,
+.fa-chevron-right
+{
+  position: absolute;
+  top: 50%;
+  color: #FFFFCC;
+  text-shadow: 2px 2px #996600;
+}
+
+
+
+/******* contact styles *******/
+.
+.contact p{
+  text-align: center;
+}
+.list-inline{
+  text-align: center;
+}
+.list-inline i{
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #FFFFCC;
+}
+
+
+/******* footer styles *******/
+.footer{
+  text-align: center;
+  color: #FFFFCC;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  height: 60px;
+}
+/******* media queries *******/
+
+@media (min-width: 992px) and (max-width: 1199px){
+  h1{
+    font-size: 60px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  p
+  .intro-text h1{
+    font-size: 150px;
+  }
+  .intro-text h3,
+  .carousel-inner a{
+    font-size: 60px;
+  }
+  .skills li{
+    font-size: 30px;
+  }
+  .fa-chevron-down{
+    font-size: 4em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  h1{
+    font-size: 50px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  .intro-text h1{
+    font-size: 100px;
+  }
+  .intro-text h3,
+  .carousel-inner a{
+    font-size: 50px;
+  }
+   .skills li,p{
+    font-size: 25px;
+  }
+}
+@media (max-width: 767px) {
+  h1{
+    font-size: 40px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  .intro-text h1{
+    font-size: 50px;
+  }
+  .intro-text h3,
+  .carousel-inner a{
+    font-size: 25px;
+  }
+   .skills li,p{
+    font-size: 20px;
+  }
+  .carousel-control i{
+    font-size: 1em
+  }
+  .fa-chevron-down,
+  .list-inline .fa{
+    font-size: 3em;
+  }
+  #navbar-collapsed{
+    position: relative;
+    top: -25px;
+    left: -5px;
+    background-color: #4F2600;
+  }
+}
