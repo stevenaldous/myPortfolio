@@ -8,7 +8,8 @@
 }
 /******* body *******/
 body{
-  background-color: #4F2600;
+  /*background-color: #4F2600;*/
+  background-color: #fff;
   position: relative;
   margin-top: 50px;
   padding-bottom: 70px;
@@ -37,7 +38,8 @@ a:visited{
   background-color: transparent;
 }
 h1{
-  font-family: "JovialSansBld";
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
   text-align: center;
   font-size: 80px;
   color: #FFCC66;
@@ -47,7 +49,8 @@ h1{
 }
 
 h3{
-  font-family: "JovialSansBld";
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
   text-align: center;
   font-size: 50px;
   color: #FFFFCC;
@@ -66,8 +69,9 @@ hr{
   color: #996600;
 }
 p{
-  font-family: "Jovial";
-  font-size: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
   letter-spacing: 1px;
   color: #FFFFCC;
 }
@@ -166,14 +170,16 @@ ul{
 
 }
 .intro-text h1{
-  font-family: "JovialSansBld";
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
   letter-spacing: 4px;
   font-size: 200px;
   color: #FFCC66;
   text-shadow: 4px 4px #996600;
 }
 .intro-text h3{
-  font-family: "JovialSansBld";
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
   letter-spacing: 2px;
   font-size: 70px;
   color: #FFCC66;
@@ -190,7 +196,8 @@ ul{
 }
 /******* about styles *******/
 .skills li{
-  font-family: "Jovial";
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
   font-size: 40px;
   letter-spacing: 1px;
   color: #FFFFCC;

@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
 // slides for carousal
   // var slides = [
   //   {image:'./images/shred_wa.png', title:'Shred WA',text:'Shred WA was designed to be the one stop weather application to help you shred the great state of Washington by helping find Ski Resorts and Mountain Bike Trails and includes the current weather as well as a forecast. Shred WA was built with AngularJS, Sails, MongoDb, Bootstrap, Trails.API, and the OpenWeather API.',url:'https://shredwa.herokuapp.com/'},
